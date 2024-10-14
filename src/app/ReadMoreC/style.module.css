@@ -1,0 +1,24 @@
+.blogcontentC{
+    padding-left: 2vw;
+    width: 100%;    
+    background-color: rgb(195,219,197);
+    font-size: 2.5vh;
+}
+.Ccontentpic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contentCpic{
+    height: 40vh;
+    width: 45vw;
+    margin-top: 5vh;
+}
+.cmaincontent h1{
+    font-size: 6vh;
+    font-weight: 400;
+}
+.cmaincontent h2{
+    font-size: 3.5vh;
+    font-weight: 400;
+}

@@ -1,0 +1,115 @@
+.cotactform{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(195,219,197);
+    display: flex;
+    font-size: 3vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/contactpagepic.jpeg);
+    background-size: cover;
+}
+
+.formpart{
+    height: 75vh;
+    width: 40%;
+    border: 3px solid black;
+    /* text-align: center; */
+    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.formpart h1 {
+    text-align: center;
+    color: rgb(13,27,30);
+    font-size:  9vh;
+
+}
+
+.formpart p{
+    font-size: 20px;
+    padding-left: 5vw;
+}
+.inputarea{
+    width: 20vw;
+    height: 4vh;
+    border-radius: 5px;
+    margin-left: 5vw;
+}
+
+#phonenumber{
+    margin-top: 20px;
+}
+#message{
+    height: 15vh;
+    font-size: 2.5vh;
+    padding-left:0.3vw;
+
+}
+.subbutton{
+    display: inline-block;
+    height: 5vh;
+    width: 10vw;
+    font-size: 2.5vh;
+    border: 1px solid  rgb(13,27,30);
+    background-color: wheat;
+    margin: 4vh 4vw 4vh 15vw;
+}
+.subbutton:hover {
+    transition-property: all;
+    
+}
+
+.tilt-in-top-1 {
+	-webkit-animation: tilt-in-top-1 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: tilt-in-top-1 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes tilt-in-top-1 {
+    0% {
+      -webkit-transform: rotateY(30deg) translateY(-300px) skewY(-30deg);
+              transform: rotateY(30deg) translateY(-300px) skewY(-30deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateY(0deg) translateY(0) skewY(0deg);
+              transform: rotateY(0deg) translateY(0) skewY(0deg);
+      opacity: 1;
+    }
+  }
+  @keyframes tilt-in-top-1 {
+    0% {
+      -webkit-transform: rotateY(30deg) translateY(-300px) skewY(-30deg);
+              transform: rotateY(30deg) translateY(-300px) skewY(-30deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateY(0deg) translateY(0) skewY(0deg);
+              transform: rotateY(0deg) translateY(0) skewY(0deg);
+      opacity: 1;
+    }
+  }
+@media  (max-width:760px){
+      .formpart{
+        width:50%;
+        height: 80vh;
+      }
+      .inputarea{
+        width: 25vw;
+
+    }
+    .subbutton{
+        width: 20vw;
+    }
+}
+@media only screen and (max-width:510px) {
+    .formpart{
+        width: 60%;
+    }
+    .inputarea{
+        width: 36vw;
+
+    }
+    .subbutton{
+        width: 18vw;
+    }
+    
+}

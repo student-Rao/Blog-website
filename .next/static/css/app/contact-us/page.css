@@ -1,0 +1,118 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/app/contact-us/style.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.style_cotactform__XQozK{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(195,219,197);
+    display: flex;
+    font-size: 3vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/_next/static/media/contactpagepic.bbe34d62.jpeg);
+    background-size: cover;
+}
+
+.style_formpart__lzL5T{
+    height: 75vh;
+    width: 40%;
+    border: 3px solid black;
+    /* text-align: center; */
+    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.style_formpart__lzL5T h1 {
+    text-align: center;
+    color: rgb(13,27,30);
+    font-size:  9vh;
+
+}
+
+.style_formpart__lzL5T p{
+    font-size: 20px;
+    padding-left: 5vw;
+}
+.style_inputarea__ByoL_{
+    width: 20vw;
+    height: 4vh;
+    border-radius: 5px;
+    margin-left: 5vw;
+}
+
+#style_phonenumber__0PPlF{
+    margin-top: 20px;
+}
+#style_message__3eva9{
+    height: 15vh;
+    font-size: 2.5vh;
+    padding-left:0.3vw;
+
+}
+.style_subbutton__x76yE{
+    display: inline-block;
+    height: 5vh;
+    width: 10vw;
+    font-size: 2.5vh;
+    border: 1px solid  rgb(13,27,30);
+    background-color: wheat;
+    margin: 4vh 4vw 4vh 15vw;
+}
+.style_subbutton__x76yE:hover {
+    transition-property: all;
+    
+}
+
+.style_tilt-in-top-1__NMVMu {
+	-webkit-animation: style_tilt-in-top-1__NMVMu 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: style_tilt-in-top-1__NMVMu 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes style_tilt-in-top-1__NMVMu {
+    0% {
+      -webkit-transform: rotateY(30deg) translateY(-300px) skewY(-30deg);
+              transform: rotateY(30deg) translateY(-300px) skewY(-30deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateY(0deg) translateY(0) skewY(0deg);
+              transform: rotateY(0deg) translateY(0) skewY(0deg);
+      opacity: 1;
+    }
+  }
+  @keyframes style_tilt-in-top-1__NMVMu {
+    0% {
+      -webkit-transform: rotateY(30deg) translateY(-300px) skewY(-30deg);
+              transform: rotateY(30deg) translateY(-300px) skewY(-30deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateY(0deg) translateY(0) skewY(0deg);
+              transform: rotateY(0deg) translateY(0) skewY(0deg);
+      opacity: 1;
+    }
+  }
+@media  (max-width:760px){
+      .style_formpart__lzL5T{
+        width:50%;
+        height: 80vh;
+      }
+      .style_inputarea__ByoL_{
+        width: 25vw;
+
+    }
+    .style_subbutton__x76yE{
+        width: 20vw;
+    }
+}
+@media only screen and (max-width:510px) {
+    .style_formpart__lzL5T{
+        width: 60%;
+    }
+    .style_inputarea__ByoL_{
+        width: 36vw;
+
+    }
+    .style_subbutton__x76yE{
+        width: 18vw;
+    }
+    
+}

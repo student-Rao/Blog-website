@@ -1,0 +1,31 @@
+.blogcontentjava {
+    width: 100%;    
+    background-color: rgb(195,219,197);
+    font-size: 2.5vh;
+}
+
+.javacontentpic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-size: cover;
+height: 50vh;
+width: 100%;
+}
+#pic{
+    height: 35vh;
+    width: 50%;
+}
+
+.javamaincontent{
+    margin-left: 2vw;
+}
+.javamaincontent h1 {
+    font-size: 7vh;
+    font-weight: 400;
+}
+
+.javamaincontent h2{
+    font-size: 3vh;
+    font-weight: 500;
+}
